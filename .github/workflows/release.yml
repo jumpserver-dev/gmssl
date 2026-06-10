@@ -46,4 +46,4 @@ jobs:
             GMSSL_VERSION=${{ github.event.inputs.GMSSL_VERSION }}
           tags: |
             jumpserver/gmssl:${{ github.event.inputs.GMSSL_VERSION }}-${{ github.event.inputs.DISTRO }}
-            ghcr.io/jumpserver/gmssl:${{ github.event.inputs.GMSSL_VERSION }}-${{ github.event.inputs.DISTRO }}
+            ghcr.io/jumpserver-dev/gmssl:${{ github.event.inputs.GMSSL_VERSION }}-${{ github.event.inputs.DISTRO }}
